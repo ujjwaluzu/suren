@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: `${brand.name} — ${brand.tagline}`, template: `%s | ${brand.name}` },
   description: brand.description,
-  icons: { icon: '/brand/symbol.svg', apple: '/brand/symbol.svg' },
+  icons: { icon: '/brand/symbol.svg', apple: '/brand/apple-touch-icon.png' },
   robots: { index: site.isPublic, follow: site.isPublic },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -1,5 +1,6 @@
 import { ImageResponse } from 'next/og';
 import { brand } from '@/config/brand';
+import { Wordmark } from '@/components/brand';
 export const alt = 'Independent digital engineering studio';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
@@ -18,7 +19,7 @@ export default function Image() {
         fontFamily: 'sans-serif',
       }}
     >
-      <div style={{ fontSize: 28, letterSpacing: 6 }}>{brand.name}</div>
+      <Wordmark style={{ width: 300, height: 66 }} />
       <div
         style={{
           display: 'flex',

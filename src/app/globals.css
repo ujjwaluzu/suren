@@ -296,24 +296,19 @@ ol {
   justify-content: space-between;
   gap: clamp(16px, 2vw, 30px);
 }
-.wordmark {
+.brand-wordmark {
   display: block;
-  width: 143px;
+  width: 172px;
   height: auto;
-}
-.editorial-wordmark {
-  display: none;
+  flex-shrink: 0;
 }
 .brand-link {
   display: flex;
   align-items: center;
   min-height: 44px;
 }
-.wordmark-fallback {
-  font-family: var(--font-heading);
-  font-size: 25px;
-  font-weight: 650;
-  letter-spacing: 0.06em;
+.footer-brand .brand-wordmark {
+  width: 200px;
 }
 .nav-menu {
   display: flex;
@@ -1670,16 +1665,6 @@ ol {
   padding-top: 0;
   padding-bottom: 0;
 }
-.wordmark {
-  display: none;
-}
-.editorial-wordmark {
-  display: block;
-  font-family: var(--font-heading), Impact, sans-serif;
-  font-size: 30px;
-  line-height: 1;
-  letter-spacing: 0.06em;
-}
 .nav-menu-trigger {
   color: var(--foreground);
   font-size: 12px;
@@ -1875,8 +1860,8 @@ a:hover {
   .nav-shell {
     gap: 25px;
   }
-  .wordmark {
-    width: 125px;
+  .brand-wordmark {
+    width: 150px;
   }
   .hero {
     padding-top: 65px;
@@ -2131,8 +2116,8 @@ a:hover {
     min-height: 72px;
     height: 72px;
   }
-  .wordmark {
-    width: 130px;
+  .brand-wordmark {
+    width: 150px;
   }
   .hero {
     display: flex;

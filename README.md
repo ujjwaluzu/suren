@@ -44,7 +44,7 @@ No CrewLab, SkyTrace or monitoring-platform assets were present. Those projects 
 | `migrations/001_enquiries.sql`               | PostgreSQL tables, constraints, RLS, outbox trigger and rate-limit/claim functions |
 | `docs/`                                      | Design, deployment, operations and QA documentation                                |
 
-Change identity in `brand.ts`. The wordmark renders the configured name using the site's heading typeface. The S monogram is defined in `src/components/brand.tsx` and `public/brand/symbol.svg`. Rebuild after changing public environment variables. Social links and contact email are hidden while unconfigured.
+Change identity in `brand.ts`. The selected identity is **Structural S / Electric accent**: a cream wordmark with a split cream-and-lime S monogram. Its vector paths are defined in `src/components/brand.tsx`, with production downloads in `public/brand/` and the original concepts in `public/logos/`. The shared wordmark also appears in social previews. Rebuild after changing public environment variables. Social links and contact email are hidden while unconfigured.
 
 To publish an article or case study, create a local MDX module, import it into the registry and add its validated metadata. Draft entries use `published: false`; they do not appear in routes, navigation or sitemap. Project metadata supports cover/gallery, overview/problem/solution, role, architecture, stack, challenges, outcomes and optional external/GitHub URLs. Never fill unavailable evidence with invented content.
 

@@ -17,7 +17,7 @@ export function metadata(title: string, description: string, path: string): Meta
           url: '/opengraph-image',
           width: 1200,
           height: 630,
-          alt: `${brand.name} — ${brand.tagline}`,
+          alt: `${brand.name} | ${brand.tagline}`,
         },
       ],
     },

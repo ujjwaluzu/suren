@@ -36,7 +36,7 @@
 }
 
 .home-page .section-number::after {
-  content: ' —';
+  content: ' /';
 }
 
 .home-page .section {

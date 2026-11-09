@@ -24,7 +24,7 @@ The scope covers brand direction, information architecture, interaction design, 
 
 ## Technical architecture
 
-Marketing pages use the Next.js App Router and server components by default. The small interactive surfaces—navigation, illustration modes, analytics consent and the enquiry form—use client components. Fonts are served locally, and the hero is vector artwork rather than an external asset dependency.
+Marketing pages use the Next.js App Router and server components by default. The small interactive surfaces (navigation, illustration modes, analytics consent and the enquiry form) use client components. Fonts are served locally, and the hero is vector artwork rather than an external asset dependency.
 
 The enquiry API validates the same field schema used in the browser. In configured production mode it writes to PostgreSQL through Supabase, then processes durable delivery records for the confirmation email, founder notification and optional CRM integration. External credentials remain on the server. A local test mode records submissions and simulated deliveries without contacting those services.
 

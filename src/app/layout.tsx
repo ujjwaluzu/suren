@@ -27,9 +27,15 @@ const mono = localFont({
 });
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: `${brand.name} — ${brand.tagline}`, template: `%s | ${brand.name}` },
+  title: { default: `${brand.name} | ${brand.tagline}`, template: `%s | ${brand.name}` },
   description: brand.description,
-  icons: { icon: '/brand/symbol.svg', apple: '/brand/apple-touch-icon.png' },
+  icons: {
+    icon: [
+      { url: '/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+      { url: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', type: 'image/png', sizes: '180x180' }],
+  },
   robots: { index: site.isPublic, follow: site.isPublic },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {

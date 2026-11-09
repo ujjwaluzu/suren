@@ -63,6 +63,8 @@ npx opennextjs-cloudflare deploy
 
 `npm run deploy` combines build and deploy. No deployment was performed during implementation. Connect your owned domain through Cloudflare after the Worker exists. Ensure HTTPS and check `/robots.txt`, `/sitemap.xml`, canonical tags, social previews and headers at the real hostname. A localhost build disallows indexing until rebuilt with a configured public URL.
 
+Favicon checks: the homepage must include icon links, and `/favicon.ico`, `/favicon.svg`, `/favicon-96x96.png` and `/apple-touch-icon.png` must return HTTP 200 with image content types and no authentication or `X-Robots-Tag: noindex` header. The public `robots.txt` allows the homepage and these files, including for Googlebot and Googlebot-Image. Preserve these stable URLs. Local development deliberately disallows crawling; rebuild with the production `NEXT_PUBLIC_SITE_URL` to enable public crawling. Search engines choose when to refresh and display the favicon after recrawling the homepage.
+
 In staging, submit a controlled enquiry and inspect: one lead, three outbox records, client receipt, founder notification and a CRM result if configured. Confirm invalid requests fail, failed notifications remain retryable, private records remain private, and rate limits work in Workers. Production live mode expects the Cloudflare-provided `cf-connecting-ip`; it does not trust IP headers in a plain Node preview.
 
 ## 6. Release and rollback

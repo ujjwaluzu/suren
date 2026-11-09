@@ -1,4 +1,4 @@
-# SUREN — Independent Digital Engineering Studio
+# SUREN - Independent Digital Engineering Studio
 
 A complete marketing website built in this repository: Next.js App Router, React, strict TypeScript, Tailwind CSS v4, local MDX, original SVG identity and a server-side enquiry pipeline. The working name and business details are provisional. No domain, trademark, client relationship or commercial result has been verified or implied.
 
@@ -45,6 +45,8 @@ No CrewLab, SkyTrace or monitoring-platform assets were present. Those projects 
 | `docs/`                                      | Design, deployment, operations and QA documentation                                |
 
 Change identity in `brand.ts`. The selected identity is **Structural S / Electric accent**: a cream wordmark with a split cream-and-lime S monogram. Its vector paths are defined in `src/components/brand.tsx`, with production downloads in `public/brand/` and the original concepts in `public/logos/`. The shared wordmark also appears in social previews. Rebuild after changing public environment variables. Social links and contact email are hidden while unconfigured.
+
+Favicons use the same S monogram with tighter padding for small browser tabs. `src/app/favicon.ico` supplies 16/32/48px fallbacks through Next.js's automatic `/favicon.ico` route. The root layout also links `/favicon.svg`, `/favicon-96x96.png` and `/apple-touch-icon.png`. Regenerate them with `node scripts/build-favicons.mjs` after changing `public/brand/symbol.svg`.
 
 To publish an article or case study, create a local MDX module, import it into the registry and add its validated metadata. Draft entries use `published: false`; they do not appear in routes, navigation or sitemap. Project metadata supports cover/gallery, overview/problem/solution, role, architecture, stack, challenges, outcomes and optional external/GitHub URLs. Never fill unavailable evidence with invented content.
 

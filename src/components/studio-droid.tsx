@@ -3,7 +3,7 @@
 import { useEffect, useId, useRef } from 'react';
 
 // Adapted from CrewLabs' FeatureDroid: the same chassis, dome and three-leg rig,
-// redrawn in the two printing inks used by NEXORA's hero globe.
+// redrawn in the two printing inks used by SUREN's hero globe.
 export function StudioDroid() {
   const id = useId().replace(/:/g, '');
   const ref = useRef<SVGSVGElement>(null);

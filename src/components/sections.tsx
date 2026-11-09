@@ -106,7 +106,7 @@ export function SelectedWork({
               src="/projects/studio-cover.webp"
               width={1400}
               height={875}
-              alt="Actual homepage of this studio website, with editorial typography and the structural N illustration"
+              alt="Actual homepage of this studio website, with editorial typography and a globe illustration"
               className="project-screenshot"
             />
           </div>

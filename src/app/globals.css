@@ -1,20 +1,20 @@
 @import 'tailwindcss';
 @font-face {
-  font-family: 'Nexora Anton';
+  font-family: 'SUREN Anton';
   src: url('/fonts/anton-latin.woff2') format('woff2');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Nexora Manrope';
+  font-family: 'SUREN Manrope';
   src: url('/fonts/manrope-latin-variable.woff2') format('woff2');
   font-style: normal;
   font-weight: 200 800;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Nexora Plex Mono';
+  font-family: 'SUREN Plex Mono';
   src: url('/fonts/ibm-plex-mono-latin.woff2') format('woff2');
   font-style: normal;
   font-weight: 400;
@@ -35,9 +35,9 @@
   --accent: #c6ff35;
   --border: #4a463c;
   --page-width: 1320px;
-  --font-heading: 'Nexora Anton';
-  --font-body: 'Nexora Manrope';
-  --font-mono: 'Nexora Plex Mono';
+  --font-heading: 'SUREN Anton';
+  --font-body: 'SUREN Manrope';
+  --font-mono: 'SUREN Plex Mono';
   color-scheme: dark;
 }
 * {

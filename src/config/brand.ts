@@ -1,6 +1,6 @@
 // Replace provisional identity here. No domain, registration or availability is implied.
 export const brand = {
-  name: 'NEXORA',
+  name: 'SUREN',
   tagline: "Engineering what's next.",
   heroHeadline: ['Built around', 'your business.'],
   description:

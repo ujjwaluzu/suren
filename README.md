@@ -1,6 +1,8 @@
-# NEXORA — Independent Digital Engineering Studio
+# SUREN — Independent Digital Engineering Studio
 
 A complete marketing website built in this repository: Next.js App Router, React, strict TypeScript, Tailwind CSS v4, local MDX, original SVG identity and a server-side enquiry pipeline. The working name and business details are provisional. No domain, trademark, client relationship or commercial result has been verified or implied.
+
+The planned domain is `surencompany.com`, to be purchased later. After purchase and setup, use `NEXT_PUBLIC_SITE_URL=https://surencompany.com` for production. Local development uses `http://localhost:3000`.
 
 ## Run locally
 
@@ -42,7 +44,7 @@ No CrewLab, SkyTrace or monitoring-platform assets were present. Those projects 
 | `migrations/001_enquiries.sql`               | PostgreSQL tables, constraints, RLS, outbox trigger and rate-limit/claim functions |
 | `docs/`                                      | Design, deployment, operations and QA documentation                                |
 
-Change identity in `brand.ts`. The custom wordmark is original SVG path artwork. If the name changes, the component automatically uses the new configured text until replacement artwork is supplied. Update the artwork in `src/components/brand.tsx` and `public/brand/` for a final rebrand. Rebuild after changing public environment variables. Social links and contact email are hidden while unconfigured.
+Change identity in `brand.ts`. The wordmark renders the configured name using the site's heading typeface. The S monogram is defined in `src/components/brand.tsx` and `public/brand/symbol.svg`. Rebuild after changing public environment variables. Social links and contact email are hidden while unconfigured.
 
 To publish an article or case study, create a local MDX module, import it into the registry and add its validated metadata. Draft entries use `published: false`; they do not appear in routes, navigation or sitemap. Project metadata supports cover/gallery, overview/problem/solution, role, architecture, stack, challenges, outcomes and optional external/GitHub URLs. Never fill unavailable evidence with invented content.
 

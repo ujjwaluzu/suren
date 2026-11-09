@@ -12,7 +12,7 @@ Use Linux CI or WSL for the most predictable adapter builds; Windows support has
 
 Set real operator details in `src/config/brand.ts`, verify the intended name/domain independently and review privacy/terms for the actual operating jurisdiction, data regions and retention. The current legal pages deliberately expose a pre-launch notice while operator identity is empty.
 
-Set `NEXT_PUBLIC_SITE_URL` to the final HTTPS URL during build **and** runtime. Public variables are compiled into the browser/static pages; changing a runtime secret cannot update static canonical URLs. Leave optional social and public contact details empty until verified.
+The planned domain is `surencompany.com`, to be purchased later. Once purchased and configured, set `NEXT_PUBLIC_SITE_URL=https://surencompany.com` during build **and** runtime. Keep `http://localhost:3000` for local development until then. Public variables are compiled into the browser/static pages; changing a runtime secret cannot update static canonical URLs. Leave optional social and public contact details empty until verified.
 
 ## 2. Prepare PostgreSQL
 

@@ -10,7 +10,7 @@ Geist and Geist Mono are by Vercel, licensed under SIL Open Font License 1.1. In
 
 The home page uses self-hosted Anton (The Anton Project Authors), Manrope (The Manrope Project Authors), and IBM Plex Mono (IBM Corp.), distributed through Fontsource under the SIL Open Font License 1.1. Their licence files are included alongside the fonts in `public/fonts/`.
 
-The original five home page illustrations in `public/art/` are WebP conversions of the artwork supplied in `nexora-home-redesign/assets/`. The `*-transparent.webp` versions were edited with the built-in image generation tool to remove their backgrounds, then optimised as WebP while preserving transparency. The supplied originals are retained.
+The original five home page illustrations in `public/art/` are WebP conversions of the artwork supplied in `suren-home-redesign/assets/`. The `*-transparent.webp` versions were edited with the built-in image generation tool to remove their backgrounds, then optimised as WebP while preserving transparency. The supplied originals are retained.
 
 The `glitch-halftone-transparent.webp` variant was restyled with the same tool to match the site's black-and-cream halftone sticker artwork. The source, style references and prompt are documented in `docs/glitch-art-theme.json`.
 

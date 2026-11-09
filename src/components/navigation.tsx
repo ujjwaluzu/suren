@@ -30,7 +30,7 @@ const menuContent: Record<string, { eyebrow: string; description: string; links:
     eyebrow: 'The studio',
     description: 'An independent engineering studio built around clear thinking and considered delivery.',
     links: [
-      { label: 'About Nexora', href: '/about' },
+      { label: `About ${brand.name}`, href: '/about' },
       { label: 'How we work', href: '/process' },
     ],
   },

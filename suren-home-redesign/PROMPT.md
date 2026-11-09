@@ -1,6 +1,6 @@
-# Prompt: redesign the NEXORA home page
+# Prompt: redesign the SUREN home page
 
-Redesign the home page of my site (NEXORA, an independent digital engineering studio) to match the attached `index.html` and the images in `assets/`. Use `index.html` as the visual source of truth and rebuild it inside my existing project, in my current stack and component structure. Keep my existing copy, routes and SEO metadata unless I say otherwise.
+Redesign the home page of my site (SUREN, an independent digital engineering studio) to match the attached `index.html` and the images in `assets/`. Use `index.html` as the visual source of truth and rebuild it inside my existing project, in my current stack and component structure. Keep my existing copy, routes and SEO metadata unless I say otherwise.
 
 ## Design direction
 - Dark editorial look: near-black `#0a0a0a` ground, cream `#f1ead6` text, one small orange accent `#ff7a3d` (the full stop in the hero and the question mark in the closing call to action).
@@ -13,7 +13,7 @@ Redesign the home page of my site (NEXORA, an independent digital engineering st
 2. Hero: huge "Built around your business." headline overlapping the handshake art, glitch photo left, laptop sticker right (hidden below 900px), two pill CTAs.
 3. Statement: "We [brain sticker + short paragraph] Build".
 4. Capabilities: four tall arch-shaped cards (Web Engineering, Software Engineering, AI & Automation, Digital Infrastructure). The first is filled cream.
-5. Selected work: the NEXORA studio website with the mechanical-hand art, the stack line, and the independent-build disclaimer.
+5. Selected work: the SUREN studio website with the mechanical-hand art, the stack line, and the independent-build disclaimer.
 6. Process: pale grey section (`#e7ebf1`), five rounded cards alternating outlined and solid black.
 7. Where we can help: Startups and Small businesses cards, sector pills, and the "not a list of existing clients" note.
 8. Closing call to action: "Have something worth building?" with concentric hairline circles.
